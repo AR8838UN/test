@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="gift.css">
+    <title>Gift for Chris Child</title>
+</head>
+<body>
+    <img src="gift1.png" class="dance one" alt="Shawarma">
+    <img src="gift1.png" class="dance two" alt="Shawarma">
+    <img src="gift1.png" class="dance three" alt="Shawarma">
+    <img src="gift1.png" class="dance four" alt="Shawarma">
+    <img src="gift1.png" class="dance five" alt="Shawarma">
+    <img src="gift1.png" class="dance six" alt="Shawarma">
+    <img src="gift1.png" class="dance seven" alt="Shawarma">
+
+        <div id="container" class="container">
+            <h2>What's your name?</h2>
+            <input type="text" id="nameInput" autocomplete="off">
+            <button onclick="confirmName()">Confirm</button>
+        </div>
+        
+        <div id="birthdayContainer" class="container" style="display: none;">
+            <h2>What's your birthday?</h2>
+            <input type="date" id="birthdayInput" autocomplete="off">
+            <button onclick="confirmBirthday()">Confirm</button>
+        </div>
+        
+        <div id="giftContainer" class="container" style="display: none;">
+            <h2>My dear Chris Child, here's your gift!</h2>
+            <button onclick="openGift()">Open Gift</button>
+        </div>
+        <div id="modal">
+            <div id="modal-content">
+                <span id="close-modal" onclick="closeModal">&times;</span>
+                <h2>Enjoy the Shawarma</h2>
+                <img src='Shawarma.png' width="250px" height="200px" alt='Gift Image'>
+                <button class="modal-button" onclick="happyButton()">Happy?</button>
+        <button class="modal-button" onclick="giftVenumButton()">Gift Venum</button>
+            </div>
+        </div>
+    
+    <script src="gift.js"></script>
+    
+    </body>
+    </html>
+    
+</body>
+</html>
