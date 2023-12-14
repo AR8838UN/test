@@ -141,5 +141,52 @@ button {
 }
 @media screen and (max-width: 600px)
 {
-    
+    .dance
+{
+    width: 100px;
+    height: 100px;
+    animation: Dancing 2s linear alternate infinite;
+}
+.one
+{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+}
+.two
+{
+    position: absolute;
+    top: 5%;
+    left: 15%;
+}
+.three
+{
+    position: absolute;
+    top: 5%;
+    left: 55%;
+}
+.four
+{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+.five
+{
+    position: absolute;
+    top: 65%;
+    left: 15%;
+}
+.six
+{
+    position: absolute;
+    top: 65%;
+    left: 55%;
+}
+.seven
+{
+    position: absolute;
+    top: 85%;
+    left: 30%;
+}
 }
